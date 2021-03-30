@@ -1,4 +1,4 @@
-# Express OAUTH2 Example
+# Express OAUTH2 Template
 
 ## How to use
 
