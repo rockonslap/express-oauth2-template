@@ -7,7 +7,7 @@ exports.generateRandomToken = () => {
         reject(err);
       }
       const token = crypto
-        .createHash('sha1')
+        .createHash('sha256')
         .update(buffer)
         .digest('hex');
 
