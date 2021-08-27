@@ -74,7 +74,7 @@ app.use('/reset-password', resetPasswordRoute);
 
 app.get('/', (req, resp) => {
   resp.json({
-    service: 'EXPRESS OAUTH2 EXAMPLES',
+    service: 'EXPRESS OAUTH2 EXAMPLE',
     version:  1.0,
   });
 });
